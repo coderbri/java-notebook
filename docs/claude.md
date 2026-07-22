@@ -19,7 +19,7 @@ architecture/setup details live in `setup-guide.md`.
 
 ## Current state
 *(update this section as you go — this is the part that goes stale fastest)*
-- Last completed: `01-java-fundamentals/01-first-java`
+- Last completed: `01-java-fundamentals/02-cafe-java`
 - Currently working on: —
 - Next planned topic/phase: —
 
