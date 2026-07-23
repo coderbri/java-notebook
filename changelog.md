@@ -1,5 +1,9 @@
 # Java Notebook • Changelog
 
+## July 23, 2026
+- Completed `01-java-fundamentals/03-alfred-bot`
+- Updated `claude.md`
+
 ## July 21, 2026
 - Completed `01-java-fundamentals/02-cafe-java`
 

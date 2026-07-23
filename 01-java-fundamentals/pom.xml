@@ -12,5 +12,6 @@
 
     <modules>
         <module>01-first-java</module>
+        <module>03-alfred-bot</module>
     </modules>
 </project>

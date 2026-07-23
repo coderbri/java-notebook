@@ -14,12 +14,13 @@ architecture/setup details live in `setup-guide.md`.
 - Phase folders: `NN-phase-name` (e.g. `01-java-fundamentals`), packaging `pom`, no code
 - Topic folders: `NN-topic-name` (e.g. `01-first-java`), packaging `jar`, real code lives here
 - Every topic module gets its own `README.md`
+- Topic README format (sections, in order): Overview → Table of Contents → Logic Flow (per-feature breakdown) → Concepts Implemented (prose explanation per concept, tied to actual code — not just a bullet list of terms) → Expected Output → Steps to Run
 - New modules created via IntelliJ: **Java + Maven** (NOT "Maven Archetype" generator — caused issues before)
 - JDK: 20 (Homebrew OpenJDK, aarch64)
 
 ## Current state
 *(update this section as you go — this is the part that goes stale fastest)*
-- Last completed: `01-java-fundamentals/02-cafe-java`
+- Last completed: `01-java-fundamentals/03-alfred-bot`
 - Currently working on: —
 - Next planned topic/phase: —
 
