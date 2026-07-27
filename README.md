@@ -13,13 +13,19 @@ This repo is organized into **phases**, each containing focused **topics**:
 java-notebook/
 ├── 01-java-fundamentals/
 │   ├── 01-first-java/
-│   ├── 02-variables-and-types/
-│   └── ...
-└── 02-object-oriented-programming/
-    └── ...
+│   ├── 02-cafe-java/
+│   └── 03-alfred-bot/
+├── 02-object-oriented-programming/
+└── notes/
+    ├── 01-variables-and-datatypes.md
+    ├── 02-modularization.md
+    └── 03-loops-and-data-structures.md
 ```
 
 Each topic module has its own `README.md` with notes on what it covers.
+The `notes/` folder holds plain markdown syntax references pulled from
+lecture material — not runnable code, just quick lookups when a syntax
+detail slips my mind mid-project.
 See [`setup-guide.md`](./setup-guide.md) for how the project is wired
 together and how new modules get added.
 
@@ -51,5 +57,5 @@ concrete examples when applying for software engineering roles.
 
 ---
 <section align="center">
-  <code>coderBri © 2026</code>
+    <p>Built and maintained by <code>coderBri © 2026</code></p>
 </section>

@@ -15,12 +15,14 @@ architecture/setup details live in `setup-guide.md`.
 - Topic folders: `NN-topic-name` (e.g. `01-first-java`), packaging `jar`, real code lives here
 - Every topic module gets its own `README.md`
 - Topic README format (sections, in order): Overview → Table of Contents → Logic Flow (per-feature breakdown) → Concepts Implemented (prose explanation per concept, tied to actual code — not just a bullet list of terms) → Expected Output → Steps to Run
+- `notes/` folder at repo root — plain markdown syntax reference from lecture notes, NOT a Maven module (no pom.xml inside it, ignored by the reactor build). One file per topic cluster; merge related lecture files into an existing note if they cover the same cluster, only create a new file for a genuinely new topic
 - New modules created via IntelliJ: **Java + Maven** (NOT "Maven Archetype" generator — caused issues before)
 - JDK: 20 (Homebrew OpenJDK, aarch64)
 
 ## Current state
 *(update this section as you go — this is the part that goes stale fastest)*
 - Last completed: `01-java-fundamentals/03-alfred-bot`
+- Notes folder: `01-variables-and-datatypes.md`, `02-modularization.md`, `03-loops-and-data-structures.md`
 - Currently working on: —
 - Next planned topic/phase: —
 
