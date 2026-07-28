@@ -6,13 +6,15 @@ constructs, fixed-size arrays, `ArrayList`, and `HashMap`.
 ## For Loop
 ```java
 for (int i = 0; i < 10; i++) {
-    System.out.println(i);
+        System.out.println(i);
 }
 ```
 Three parts, separated by `;`:
 1. **Initialization** — `int i = 0` (runs once, before the loop starts)
 2. **Condition** — `i < 10` (checked before every iteration; loop stops once false)
 3. **Increment** — `i++` (runs after every iteration)
+
+> **In practice:** `04-cafe-business-logic/getOrderTotal()` and `printPriceChart()` both use this exact loop shape to accumulate a running total across an array/quantity range.
 
 ## While Loop
 ```java
@@ -26,6 +28,8 @@ Only has a condition — initialization happens before the loop, and
 incrementing must be done manually inside the loop body. Useful when the
 number of iterations isn't known ahead of time (unlike a `for` loop,
 which is a natural fit when it is).
+
+> **In practice:** `04-cafe-business-logic/addCustomers()` uses `while (true) { ... break; }` — a variant where the loop runs indefinitely until a sentinel value (`"q"`) is entered, rather than a pre-known condition.
 
 ## Fixed Arrays
 ```java
@@ -73,6 +77,8 @@ Unlike a fixed array, `ArrayList` can grow and shrink — `.add()` appends,
 The `<String>` is a **generic type** — it locks the list to holding only
 `String` elements, checked at compile time.
 
+> **In practice:** `04-cafe-business-logic` uses `ArrayList<String>` for both menu items and the customer waitlist, and `ArrayList<Double>` for menu prices — `.get(index)` and `.size()` drive the display/table-printing loops throughout `CafeUtil`.
+
 ## HashMap
 ```java
 import java.util.HashMap;
@@ -88,7 +94,7 @@ System.out.println(person.get("firstName")); // Jane
 
 Set<String> allKeys = person.keySet();
 for (String key : allKeys) {
-    String value = person.get(key);
+String value = person.get(key);
     System.out.printf("%s = %s\n", key, value);
 }
 ```
@@ -98,7 +104,7 @@ for (String key : allKeys) {
 ## Application: Looping Over the Alphabet
 ```java
 for (char i = 'a'; i <= 'z'; i++) {
-    System.out.println(i);
+        System.out.println(i);
 }
 ```
 `char` values can be used in a numeric `for` loop the same way `int` can
@@ -109,7 +115,7 @@ compares them directly.
 ```java
 ArrayList<Character> alphabetList = new ArrayList<Character>();
 for (char i = 'a'; i <= 'z'; i++) {
-    alphabetList.add(i);
+        alphabetList.add(i);
 }
 ```
 Same loop, but collecting each character into an `ArrayList<Character>`
