@@ -17,7 +17,6 @@
 
     <modules>
         <module>01-java-fundamentals</module>
-        <module>01-java-fundamentals/02-cafe-java</module>
     </modules>
 
 </project>

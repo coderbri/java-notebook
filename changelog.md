@@ -1,5 +1,10 @@
 # Java Notebook • Changelog
 
+## October 18, 2026
+- Completed `01-java-fundamentals/05-puzzling`
+
+---
+
 ## July 27, 2026
 - Completed `01-java-fundamentals/04-cafe-business-logic`
 - Updated `notes/03-loops-and-data-structures.md` to include references to the project `04-cafe-business-logic`

@@ -12,7 +12,9 @@
 
     <modules>
         <module>01-first-java</module>
+        <module>02-cafe-java</module>
         <module>03-alfred-bot</module>
         <module>04-cafe-business-logic</module>
+        <module>05-puzzling</module>
     </modules>
 </project>
