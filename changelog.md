@@ -1,5 +1,11 @@
 # Java Notebook • Changelog
 
+## October 19, 2026
+- Completed `01-java-fundamentals/06-map-of-hashmatique`
+- Updated documentation
+
+---
+
 ## October 18, 2026
 - Completed `01-java-fundamentals/05-puzzling`
 

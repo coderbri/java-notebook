@@ -16,5 +16,6 @@
         <module>03-alfred-bot</module>
         <module>04-cafe-business-logic</module>
         <module>05-puzzling</module>
+        <module>06-map-of-hashmatique</module>
     </modules>
 </project>
