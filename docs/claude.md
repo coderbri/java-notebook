@@ -24,9 +24,9 @@ architecture/setup details live in `setup-guide.md`.
 
 ## Current state
 *(update this section as you go — this is the part that goes stale fastest)*
-- Last completed: `01-java-fundamentals/06-map-of-hashmatique`
-- Phase 01 topics done so far: `01-first-java`, `02-cafe-java`, `03-alfred-bot`, `04-cafe-business-logic`, `05-puzzling`, `06-map-of-hashmatique`
-- Notes folder: `01-variables-and-datatypes.md`, `02-modularization.md`, `03-loops-and-data-structures.md`
+- Last completed: `01-java-fundamentals/07-list-of-exceptions`
+- Phase 01 topics done so far: `01-first-java`, `02-cafe-java`, `03-alfred-bot`, `04-cafe-business-logic`, `05-puzzling`, `06-map-of-hashmatique`, `07-list-of-exceptions`
+- Notes folder: `01-variables-and-datatypes.md`, `02-modularization.md`, `03-loops-and-data-structures.md`, `04-exceptions.md`
 - Currently working on: —
 - Next planned topic/phase: —
 

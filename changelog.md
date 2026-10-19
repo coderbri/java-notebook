@@ -2,7 +2,10 @@
 
 ## October 19, 2026
 - Completed `01-java-fundamentals/06-map-of-hashmatique`
+- Completed `01-java-fundamentals/07-list-of-exceptions`
 - Updated documentation
+  - Updated `notes/03-loops-and-data-structures.md` to include a reference to the project `06-map-of-hashmatique` (HashMap iteration with `entrySet()` and unordered iteration)
+  - Added `notes/04-exceptions.md` — try/catch, checked vs unchecked exceptions, and when to prefer `instanceof`
 
 ---
 

@@ -17,5 +17,6 @@
         <module>04-cafe-business-logic</module>
         <module>05-puzzling</module>
         <module>06-map-of-hashmatique</module>
+        <module>07-list-of-exceptions</module>
     </modules>
 </project>
