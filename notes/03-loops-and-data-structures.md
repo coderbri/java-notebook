@@ -6,7 +6,7 @@ constructs, fixed-size arrays, `ArrayList`, and `HashMap`.
 ## For Loop
 ```java
 for (int i = 0; i < 10; i++) {
-        System.out.println(i);
+    System.out.println(i);
 }
 ```
 Three parts, separated by `;`:
@@ -94,17 +94,19 @@ System.out.println(person.get("firstName")); // Jane
 
 Set<String> allKeys = person.keySet();
 for (String key : allKeys) {
-String value = person.get(key);
+    String value = person.get(key);
     System.out.printf("%s = %s\n", key, value);
 }
 ```
 - `HashMap<KeyType, ValueType>` stores key-value pairs — `.put(key, value)` adds/updates, `.get(key)` retrieves
 - `.keySet()` returns a `Set` of all keys (a `Set` holds only unique values, no duplicates), which you can loop over to reach every key and its value
 
+> **In practice:** `06-map-of-hashmatique` stores song titles as keys and lyrics as values, and loops with `entrySet()` instead of `keySet()` so each key and value arrive together without a second `.get()` lookup. It also shows that a `HashMap` doesn't keep insertion order.
+
 ## Application: Looping Over the Alphabet
 ```java
 for (char i = 'a'; i <= 'z'; i++) {
-        System.out.println(i);
+    System.out.println(i);
 }
 ```
 `char` values can be used in a numeric `for` loop the same way `int` can
@@ -115,7 +117,7 @@ compares them directly.
 ```java
 ArrayList<Character> alphabetList = new ArrayList<Character>();
 for (char i = 'a'; i <= 'z'; i++) {
-        alphabetList.add(i);
+    alphabetList.add(i);
 }
 ```
 Same loop, but collecting each character into an `ArrayList<Character>`
