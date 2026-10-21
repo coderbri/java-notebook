@@ -14,6 +14,7 @@ architecture/setup details live in `setup-guide.md`.
 - Phase folders: `NN-phase-name` (e.g. `01-java-fundamentals`), packaging `pom`, no code
 - Topic folders: `NN-topic-name` (e.g. `01-first-java`), packaging `jar`, real code lives here
 - Every topic module gets its own `README.md`
+- Each phase folder (e.g. `01-java-fundamentals`) gets its own `README.md` that briefly summarizes the phase and links to every topic module and relevant note; the root `README.md` Phases table and structure diagram are updated when a phase finishes
 - Topic README format (sections, in order): Overview → Table of Contents → Logic Flow (per-feature breakdown) → Concepts Implemented (prose explanation per concept, tied to actual code — not just a bullet list of terms) → Expected Output → Steps to Run
 - Code comments: `/** ... */` block style written as brief complete sentences, not single-line `//`. Class-level block uses `@file` and `@description`; method-level blocks give a short description plus `@param`/`@return` where they add clarity
 - Run modules with `mvn compile exec:java -Dexec.mainClass="<package>.<MainClass>"` from the module directory
@@ -24,11 +25,11 @@ architecture/setup details live in `setup-guide.md`.
 
 ## Current state
 *(update this section as you go — this is the part that goes stale fastest)*
-- Last completed: `01-java-fundamentals/07-list-of-exceptions`
-- Phase 01 topics done so far: `01-first-java`, `02-cafe-java`, `03-alfred-bot`, `04-cafe-business-logic`, `05-puzzling`, `06-map-of-hashmatique`, `07-list-of-exceptions`
-- Notes folder: `01-variables-and-datatypes.md`, `02-modularization.md`, `03-loops-and-data-structures.md`, `04-exceptions.md`
+- Last completed: `01-java-fundamentals/08-numbers-game` (final project of phase 01, which is now complete)
+- Phase 01 topics done: `01-first-java`, `02-cafe-java`, `03-alfred-bot`, `04-cafe-business-logic`, `05-puzzling`, `06-map-of-hashmatique`, `07-list-of-exceptions`, `08-numbers-game`
+- Notes folder: `01-variables-and-datatypes.md`, `02-modularization.md`, `03-loops-and-data-structures.md`, `04-exceptions.md`, `05-input-and-control-flow.md`
 - Currently working on: —
-- Next planned topic/phase: —
+- Next planned topic/phase: `02-object-oriented-programming` (Java OOP)
 
 ## Known issues / things to remember
 - `<packaging>` must be a sibling of `<parent>` in a module's pom.xml, never nested inside `<parent>`

@@ -14,12 +14,21 @@ java-notebook/
 ├── 01-java-fundamentals/
 │   ├── 01-first-java/
 │   ├── 02-cafe-java/
-│   └── 03-alfred-bot/
-├── 02-object-oriented-programming/
-└── notes/
-    ├── 01-variables-and-datatypes.md
-    ├── 02-modularization.md
-    └── 03-loops-and-data-structures.md
+│   ├── 03-alfred-bot/
+│   ├── 04-cafe-business-logic/
+│   ├── 05-puzzling/
+│   ├── 06-map-of-hashmatique/
+│   ├── 07-list-of-exceptions/
+│   └── 08-numbers-game/
+├── 02-java-oop/     (up next)
+├── notes/
+│   ├── 01-variables-and-datatypes.md
+│   ├── 02-modularization.md
+│   ├── 03-loops-and-data-structures.md
+│   ├── 04-exceptions.md
+│   └── 05-input-and-control-flow.md
+├── setup-guide.md
+└── CHANGELOG.md
 ```
 
 Each topic module has its own `README.md` with notes on what it covers.
@@ -31,10 +40,10 @@ together and how new modules get added.
 
 ## Phases
 
-| Phase | Focus |
-|---|---|
-| [01 — Java Fundamentals](./01-java-fundamentals) | Syntax, variables, control flow, core language basics |
-| 02 — Object-Oriented Programming | *coming soon* |
+| Phase                                            | Status | Focus |
+|--------------------------------------------------|---|---|
+| [01 — Java Fundamentals](./01-java-fundamentals) | ✅ Complete | Syntax, methods, collections, input handling, and exceptions across eight projects |
+| 02 — Java Object-Oriented Programming            | 🚧 Up next | Classes, objects, and the core OOP principles |
 
 *(This table grows as new phases are added.)*
 
@@ -44,10 +53,12 @@ Each topic is a standalone Maven module and can be run independently:
 
 ```bash
 cd 01-java-fundamentals/01-first-java
-mvn compile exec:java
+mvn compile exec:java -Dexec.mainClass="com.learn.hello.Main"
 ```
 
-Or open the whole repo in IntelliJ and run any module's `Main.java` directly.
+Each module's README lists its exact command. You can also open the whole repo in IntelliJ and run any module's main class directly.
+
+**Requirements:** JDK 17 or later (developed with JDK 20) and Maven.
 
 ## Why this exists
 
@@ -56,6 +67,4 @@ revisit fundamentals, track progress over time, and eventually reference
 concrete examples when applying for software engineering roles.
 
 ---
-<section align="center">
-    <p>Built and maintained by <code>coderBri © 2026</code></p>
-</section>
+*Built and maintained by [coderbri](https://github.com/coderbri)*

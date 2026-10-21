@@ -1,5 +1,15 @@
 # Java Notebook • Changelog
 
+## October 20, 2026
+- Completed `01-java-fundamentals/08-numbers-game`
+- Completed phase `01-java-fundamentals`
+- Added `notes/05-input-and-control-flow.md` — `Scanner` vs `System.console()`, `static final` constants, extracting methods, input validation, and ordering conditionals
+- Updated `notes/04-exceptions.md` to include a reference to the project `08-numbers-game` (`try/catch` around `Integer.parseInt`)
+- Added `01-java-fundamentals/README.md` — phase overview linking each project with a brief and its key concepts
+- Updated root `README.md` — full Phase 01 structure, all five notes, phase status table, and a corrected run command
+
+---
+
 ## October 19, 2026
 - Completed `01-java-fundamentals/06-map-of-hashmatique`
 - Completed `01-java-fundamentals/07-list-of-exceptions`
