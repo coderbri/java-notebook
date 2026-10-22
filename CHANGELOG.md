@@ -4,6 +4,11 @@
 - Started phase `02-java-oop`
 - Completed `02-java-oop/09-orders-and-items` — first object-oriented project (`Item`, `Order`, and the `TestOrders` driver)
 - Updated `README.md`, `setup-guide.md`, and `CLAUDE.md` to use the Phase 02 folder name `02-java-oop`
+- Completed `02-java-oop/10-baristas-challenge` (`com.learn.baristachallenge`):
+  - Refactored `Item` and `Order` to use private member variables, constructors, and getters/setters
+  - Added an overloaded `Order` constructor (`"Guest"` default) and moved the business logic into `addItem`, `getStatusMessage`, `getOrderTotal`, and `displayReceipt`
+  - Removed the stored `total` field in favor of a calculated `getOrderTotal()`
+  - Added a module `README.md` with expected output and JavaDoc comments across all three classes
 
 ---
 
