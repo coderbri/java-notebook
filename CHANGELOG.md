@@ -1,5 +1,12 @@
 # Java Notebook • Changelog
 
+## October 22, 2026
+- Started phase `02-java-oop`
+- Completed `02-java-oop/09-orders-and-items` — first object-oriented project (`Item`, `Order`, and the `TestOrders` driver)
+- Updated `README.md`, `setup-guide.md`, and `CLAUDE.md` to use the Phase 02 folder name `02-java-oop`
+
+---
+
 ## October 20, 2026
 - Completed `01-java-fundamentals/08-numbers-game`
 - Completed phase `01-java-fundamentals`

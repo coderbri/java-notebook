@@ -17,6 +17,7 @@
 
     <modules>
         <module>01-java-fundamentals</module>
+        <module>02-java-oop</module>
     </modules>
 
 </project>

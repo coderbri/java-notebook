@@ -25,11 +25,12 @@ architecture/setup details live in `setup-guide.md`.
 
 ## Current state
 *(update this section as you go — this is the part that goes stale fastest)*
-- Last completed: `01-java-fundamentals/08-numbers-game` (final project of phase 01, which is now complete)
+- Last completed: `02-java-oop/09-orders-and-items` (first project of phase 02; phase 01 is complete)
 - Phase 01 topics done: `01-first-java`, `02-cafe-java`, `03-alfred-bot`, `04-cafe-business-logic`, `05-puzzling`, `06-map-of-hashmatique`, `07-list-of-exceptions`, `08-numbers-game`
 - Notes folder: `01-variables-and-datatypes.md`, `02-modularization.md`, `03-loops-and-data-structures.md`, `04-exceptions.md`, `05-input-and-control-flow.md`
-- Currently working on: —
-- Next planned topic/phase: `02-object-oriented-programming` (Java OOP)
+- Phase 02 projects done: `09-orders-and-items` (`com.learn.ordersitems`)
+- Currently working on: Phase 02 (`02-java-oop`)
+- Next planned topic/phase: the remaining Phase 02 projects
 
 ## Known issues / things to remember
 - `<packaging>` must be a sibling of `<parent>` in a module's pom.xml, never nested inside `<parent>`

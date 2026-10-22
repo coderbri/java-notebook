@@ -20,7 +20,7 @@ java-notebook/
 │   ├── 06-map-of-hashmatique/
 │   ├── 07-list-of-exceptions/
 │   └── 08-numbers-game/
-├── 02-java-oop/     (up next)
+├── 02-java-oop/                          (in progress)
 ├── notes/
 │   ├── 01-variables-and-datatypes.md
 │   ├── 02-modularization.md
@@ -40,10 +40,10 @@ together and how new modules get added.
 
 ## Phases
 
-| Phase                                            | Status | Focus |
-|--------------------------------------------------|---|---|
+| Phase | Status | Focus |
+|---|---|---|
 | [01 — Java Fundamentals](./01-java-fundamentals) | ✅ Complete | Syntax, methods, collections, input handling, and exceptions across eight projects |
-| 02 — Java Object-Oriented Programming            | 🚧 Up next | Classes, objects, and the core OOP principles |
+| [02 — Java OOP](./02-java-oop) | 🚧 In progress | Classes, objects, and the core OOP principles |
 
 *(This table grows as new phases are added.)*
 

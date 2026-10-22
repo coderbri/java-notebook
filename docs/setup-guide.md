@@ -22,7 +22,7 @@ java-notebook/                     <-- Root Maven project (packaging: pom)
 │   └── 02-variables-and-types/
 │       └── ...
 │
-└── 02-object-oriented-programming/
+└── 02-java-oop/
     └── ...
 ```
 
@@ -111,7 +111,7 @@ No `<modules>` block here — a topic module is a leaf, not an aggregator.
 
 1. Right-click `java-notebook` → **New → Module**
 2. Select **Java** on the left (not "Maven Archetype" under Generators) and **Maven** as the build system
-3. Set artifactId (e.g. `02-object-oriented-programming`), confirm Parent is `java-notebook`
+3. Set artifactId (e.g. `02-java-oop`), confirm Parent is `java-notebook`
 4. Leave **Add sample code** unchecked
 5. Open the generated `pom.xml`, add `<packaging>pom</packaging>` and an empty `<modules></modules>` block
 6. Delete the generated `src/` folder — this level holds no code
