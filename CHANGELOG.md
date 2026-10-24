@@ -1,5 +1,17 @@
 # Java Notebook • Changelog
 
+## October 23, 2026
+
+- Completed `02-java-oop/11-bank-account` (`com.learn.bankaccount`):
+  - Built `BankAccount` with private checking/savings balances, a `final` random ten-digit account number, and private static trackers for account count and total money
+  - Added `deposit` and `withdraw` with validation for account type, amount, and sufficient funds, using a shared `isInvalidTransaction` helper
+  - Added `getCombinedBalance()` and a boxed `displayAccountBalance()`
+  - Built `TestBankAccount` covering every method plus edge cases and a tracker cross-check
+  - Added a module `README.md` with expected output and JavaDoc comments across both classes
+- Added `notes/06-encapsulation-and-access-modifiers.md` covering when to use `private` vs `public` for fields, static members, and methods
+
+---
+
 ## October 22, 2026
 - Started phase `02-java-oop`
 - Completed `02-java-oop/09-orders-and-items` — first object-oriented project (`Item`, `Order`, and the `TestOrders` driver)

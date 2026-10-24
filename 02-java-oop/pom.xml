@@ -15,6 +15,7 @@
     <modules>
         <module>09-orders-and-items</module>
         <module>10-baristas-challenge</module>
+        <module>11-bankaccount</module>
     </modules>
 
 </project>
