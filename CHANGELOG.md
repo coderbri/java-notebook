@@ -1,5 +1,21 @@
 # Java Notebook • Changelog
 
+## October 26, 2026
+
+- Started phase `03-java-spring` and completed `03-java-spring/18-chengyu-routing` (`org.learn.routingpractice`):
+  - Created a Spring Boot + Maven project with Spring Web as the only dependency
+  - Built `MainController` as a `@RestController` with a class-level `@RequestMapping("/chengyu")` and method-level `@RequestMapping` routes for the welcome page, `/yesterday`, `/today`, and `/tomorrow`
+  - Set `method = RequestMethod.GET` on each route and `produces = MediaType.TEXT_HTML_VALUE` on the HTML welcome page
+  - Wrote a chéngyǔ line for each day in the format: Chinese idiom, pīnyīn, translation, and a modern encouraging meaning
+  - Added a `/chengyu/random` route that picks from a `List.of(...)` pool using `Random.nextInt(list.size())`
+  - Redirected `/` to `/chengyu` by implementing `WebMvcConfigurer` in the Application class, so the root URL never shows an error page
+  - Added a module `README.md` with routes, logic flow, and expected output
+- Added phase READMEs for `02-java-oop` and `03-java-spring`, following the `01-java-fundamentals` format (project table, how projects build on each other, reference notes, run instructions)
+- Updated the phase 01 README to the same `Phase 0X •` title format, with a status line and a back-link footer
+- Updated the root `README.md`: added phase 03 to the structure tree and phases table, added `notes/06-encapsulation-and-access-modifiers.md` to the tree, and added a Spring Boot run command alongside the plain Java one
+- Listed `12 Coffeedore 64` in the phase 02 project table as an upcoming project
+---
+
 ## October 23, 2026
 
 - Completed `02-java-oop/11-bank-account` (`com.learn.bankaccount`):

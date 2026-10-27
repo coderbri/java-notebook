@@ -1,3 +1,6 @@
+### Projects ###
+./02-java-oop/12-Coffeedore64/
+
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/

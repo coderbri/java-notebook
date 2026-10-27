@@ -21,6 +21,13 @@ java-notebook/
 │   ├── 07-list-of-exceptions/
 │   └── 08-numbers-game/
 ├── 02-java-oop/                          (in progress)
+│   ├── 09-orders-and-items/
+│   ├── 10-baristas-challenge/
+│   ├── 11-bankaccount/
+│   └── ... (more projects coming soon)
+├── 03-java-spring/                       (in progress)
+│   ├── 18-routing-practice/
+│   └── ... (more projects coming soon)
 ├── notes/
 │   ├── 01-variables-and-datatypes.md
 │   ├── 02-modularization.md
@@ -44,16 +51,26 @@ together and how new modules get added.
 |---|---|---|
 | [01 — Java Fundamentals](./01-java-fundamentals) | ✅ Complete | Syntax, methods, collections, input handling, and exceptions across eight projects |
 | [02 — Java OOP](./02-java-oop) | 🚧 In progress | Classes, objects, and the core OOP principles |
+| [03 — Java Spring](./03-java-spring) | 🚧 In progress | Building web apps with Spring Boot, starting with routing and controllers |
 
 *(This table grows as new phases are added.)*
 
 ## Running a module
 
-Each topic is a standalone Maven module and can be run independently:
+Each topic is a standalone Maven module and can be run independently.
+
+Plain Java modules (phases 01 and 02):
 
 ```bash
 cd 01-java-fundamentals/01-first-java
 mvn compile exec:java -Dexec.mainClass="com.learn.hello.Main"
+```
+
+Spring Boot modules (phase 03) start an embedded server instead:
+
+```bash
+cd 03-java-spring/18-routing-practice
+mvn spring-boot:run
 ```
 
 Each module's README lists its exact command. You can also open the whole repo in IntelliJ and run any module's main class directly.
