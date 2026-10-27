@@ -1,4 +1,4 @@
-# 01 — Java Fundamentals
+# Phase 01 • Java Fundamentals
 
 The first phase of [Java Notebook](../README.md): eight projects that take a program from "Hello, World" to a complete interactive game. Each project is a self-contained Maven module with its own README covering the overview, logic flow, and concepts, and later projects deliberately reuse and extend earlier ideas.
 
@@ -41,3 +41,7 @@ Each project's README lists its exact command.
 
 ## Up next
 Phase 02 moves into **Object-Oriented Programming**: classes, objects, and the core OOP principles.
+
+---
+
+[← Back to the Java Notebook](../README.md)
