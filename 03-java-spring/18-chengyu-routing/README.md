@@ -1,6 +1,6 @@
 # 18 Chéngyǔ: Routing Practice
 
-A Spring Boot web app that delivers a line of motivation based on which URL path is typed into the browser. It is inspired by the *Daikichi (大吉)* challenge, where Daikichi means "excellent luck" or "great blessing." This version uses **chéngyǔ (成语)**, Chinese idioms and proverbs, for yesterday, today, and tomorrow.
+A Spring Boot project for practicing the foundations of **RESTful API development** and learning how HTTP requests work. Each URL path typed into the browser sends a GET request to a Spring controller, which matches the path to a handler method and returns a response that the browser renders. The subject matter is **chéngyǔ (成语)**, Chinese idioms and proverbs, serving a line of motivation for yesterday, today, and tomorrow.
 
 > - **Phase:** `03-java-spring`
 > - **Package:** `org.learn.routingpractice` 
