@@ -1,5 +1,19 @@
 # Java Notebook • Changelog
 
+## November 16, 2026
+
+- Completed `03-java-spring/19-hello-human` (`org.learn.hellohuman`):
+  - Built `GreetingController` as a `@RestController` with a class-level `@RequestMapping("/hello")` and a single GET route that takes optional `@RequestParam` values for `name`, `last_name`, and `times`
+  - Handled the default, name, last name, and repeat requirements in one handler, since query parameters don't make routes distinct and separate methods on the same path cause an ambiguous mapping error
+  - Added a private `buildName` helper that falls back to "Human" and ignores blank input
+  - Repeated the greeting with `Collections.nCopies` and `String.join`, defaulting `times` to 1 and capping it at 100 with `MAX_TIMES`
+  - Returned plain text with `produces = MediaType.TEXT_PLAIN_VALUE`
+  - Redirected `/` to `/hello` with `setKeepQueryParams(true)` so query strings survive the redirect
+  - Added a module `README.md` with requirements, routes, logic flow, and concepts, plus a standalone `DOCUMENTATION.md` explaining the controller logic and built-in methods
+- Updated the phase 03 `README.md`: added project 19 to the table with a summary, added a "How the projects build on each other" section, made the run command generic, and reworded the project 18 summary around RESTful API practice
+
+---
+
 ## October 26, 2026
 
 - Started phase `03-java-spring` and completed `03-java-spring/18-chengyu-routing` (`org.learn.routingpractice`):

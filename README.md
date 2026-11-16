@@ -49,9 +49,9 @@ together and how new modules get added.
 
 | Phase | Status | Focus |
 |---|---|---|
-| [01 — Java Fundamentals](./01-java-fundamentals) | ✅ Complete | Syntax, methods, collections, input handling, and exceptions across eight projects |
-| [02 — Java OOP](./02-java-oop) | 🚧 In progress | Classes, objects, and the core OOP principles |
-| [03 — Java Spring](./03-java-spring) | 🚧 In progress | Building web apps with Spring Boot, starting with routing and controllers |
+| [01 Java Fundamentals](./01-java-fundamentals) | ✅ Complete | Syntax, methods, collections, input handling, and exceptions across eight projects |
+| [02 Java OOP](./02-java-oop) | 🚧 In progress | Classes, objects, and the core OOP principles |
+| [03 Java Spring](./03-java-spring) | 🚧 In progress | Building web apps with Spring Boot, starting with routing and controllers |
 
 *(This table grows as new phases are added.)*
 
