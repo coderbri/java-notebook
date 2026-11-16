@@ -2,7 +2,9 @@
 
 A Spring Boot project for practicing the foundations of **RESTful API development** and learning how HTTP requests work. A URL typed into the browser sends a GET request to a Spring controller, which reads **query string parameters** from the URL and returns a personalized greeting. With no name provided, it greets "Human."
 
-> **Phase:** `03-java-spring` • **Package:** `org.learn.hellohuman` • **Stack:** Java, Spring Boot, Maven, Spring Web
+> - **Phase:** `03-java-spring`
+> - **Package:** `org.learn.hellohuman`
+> - **Stack:** Java, Spring Boot, Maven, Spring Web
 
 For a line-by-line explanation of the controller logic and the built-in methods it uses, see [`DOCUMENTATION.md`](./DOCUMENTATION.md).
 
