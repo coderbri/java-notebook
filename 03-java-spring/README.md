@@ -8,10 +8,11 @@ The third chapter of the [Java Notebook](../README.md). After fundamentals and O
 
 ## Projects
 
-| # | Project                                           | Package                     | Focus                                                                    |
-|---|---------------------------------------------------|-----------------------------|--------------------------------------------------------------------------|
-| 18 | [Chéngyǔ: Routing Practice](./18-chengyu-routing) | `org.learn.routingpractice` | Class-level and method-level `@RequestMapping`, plus a root redirect     |
-| 19 | [Hello Human](./19-hello-human)                   | `org.learn.hellohuman`      | `@RequestParam` query string parameters, one route with optional inputs  |
+| # | Project                                                        | Package                     | Focus                                                                        |
+|---|----------------------------------------------------------------|-----------------------------|------------------------------------------------------------------------------|
+| 18 | [Chéngyǔ: Routing Practice](./18-chengyu-routing)              | `org.learn.routingpractice` | Class-level and method-level `@RequestMapping`, plus a root redirect         |
+| 19 | [Hello Human](./19-hellohuman)                                 | `org.learn.hellohuman`      | `@RequestParam` query string parameters, one route with optional inputs      |
+| 20 | [Chéngyǔ: Path Variables](./20-chengyu-path-variables)         | `org.learn.pathvariables`   | `@PathVariable` routes, even/odd logic, and a custom `ErrorController` page  |
 
 *(This table grows as new projects are added.)*
 
@@ -27,11 +28,18 @@ A Spring Boot project for practicing query string parameters. A single `/hello` 
 
 **Route:** `/hello` (query parameters: `name`, `last_name`, `times`)
 
+### 20 Chéngyǔ: Path Variables
+
+A Spring Boot project that builds on project 18 by capturing values straight from the URL path. Two new routes take a city (`/chengyu/travel/{city}`) or a whole number (`/chengyu/lotto/{number}`) and return a matching fortune, and a custom error controller replaces the Whitelabel Error page with clear 404 and 400 pages. The new methods and the built-ins they use are explained in a standalone [`DOCUMENTATION.md`](./20-chengyu-path-variables/DOCUMENTATION.md).
+
+**New routes:** `/chengyu/travel/{city}`, `/chengyu/lotto/{number}`, and the `/error` page
+
 ---
 
 ## How the projects build on each other
 - **18:** routing by *path*: mapping URLs to handler methods with class-level and method-level `@RequestMapping`.
 - **19:** routing by *input*: reading optional query string values with `@RequestParam` and handling every combination in a single route.
+- **20:** routing by *path value*: capturing values inside the URL with `@PathVariable`, and replacing the Whitelabel error page with a custom `ErrorController`.
 
 ---
 

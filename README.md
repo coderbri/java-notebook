@@ -26,14 +26,17 @@ java-notebook/
 │   ├── 11-bankaccount/
 │   └── ... (more projects coming soon)
 ├── 03-java-spring/                       (in progress)
-│   ├── 18-routing-practice/
+│   ├── 18-chengyu-routing/
+│   ├── 19-hellohuman/
+│   ├── 20-chengyu-path-variables/
 │   └── ... (more projects coming soon)
 ├── notes/
 │   ├── 01-variables-and-datatypes.md
 │   ├── 02-modularization.md
 │   ├── 03-loops-and-data-structures.md
 │   ├── 04-exceptions.md
-│   └── 05-input-and-control-flow.md
+│   ├── 05-input-and-control-flow.md
+│   └── 06-encapsulation-and-access-modifiers.md
 ├── setup-guide.md
 └── CHANGELOG.md
 ```
@@ -51,7 +54,7 @@ together and how new modules get added.
 |---|---|---|
 | [01 Java Fundamentals](./01-java-fundamentals) | ✅ Complete | Syntax, methods, collections, input handling, and exceptions across eight projects |
 | [02 Java OOP](./02-java-oop) | 🚧 In progress | Classes, objects, and the core OOP principles |
-| [03 Java Spring](./03-java-spring) | 🚧 In progress | Building web apps with Spring Boot, starting with routing and controllers |
+| [03 Java Spring](./03-java-spring) | 🚧 In progress | Building web apps with Spring Boot: routing, query parameters, path variables, and custom error pages |
 
 *(This table grows as new phases are added.)*
 
@@ -69,7 +72,7 @@ mvn compile exec:java -Dexec.mainClass="com.learn.hello.Main"
 Spring Boot modules (phase 03) start an embedded server instead:
 
 ```bash
-cd 03-java-spring/18-routing-practice
+cd 03-java-spring/18-chengyu-routing
 mvn spring-boot:run
 ```
 
